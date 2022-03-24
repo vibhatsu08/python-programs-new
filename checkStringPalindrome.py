@@ -6,6 +6,7 @@ for i in string :
     new_string = i + new_string
     
 if new_string == string :
-    print("Given string : {} : is palindrome.".format(string))
-elif new_string != string:
-    print("Given string : {} is not palindrome.".format(string))
+    print("{} is palindrome.".format(new_string))
+else :
+    print("{} is not palindrome.".format(new_string))
+    
